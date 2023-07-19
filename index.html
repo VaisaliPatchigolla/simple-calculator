@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Simple Calculator</title>
+    <style>
+        #center{
+            background-color: azure;
+            border: 1px solid black;
+            margin: auto;
+            text-align: center;
+            width: 400px;
+            height: 400px;
+        }
+        h3{
+            color: indianred;
+        }
+        h1{
+            
+            color:mediumseagreen;
+            text-align: center;
+        }
+        #button1{
+            background-color: burlywood;
+        }
+        #button1:focus{
+            background-color: plum;
+        }
+        body{
+            background-color: cadetblue;
+        }
+    </style>
+</head>
+<body>
+    <div id="center">
+        <h1>My simple Calculator</h1>
+        <h3>Enter first number</h3>
+        <input type="number" id="value1">
+        <h3>Enter second number</h3>
+        <input type="number" id="value2">
+        <h3>Result</h3>
+        <p id="answer1">Here you can see Answers</p>
+        <button id="button1" onclick="add()">Add</button>
+        <button id="button1" onclick="sub()">Sub</button>
+        <button id="button1" onclick="multiply()">Multiply</button>
+        <button id="button1" onclick="div()">Div</button>
+        <button id="button1" onclick="mod()">Mod</button>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
